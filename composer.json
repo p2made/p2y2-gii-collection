@@ -5,10 +5,10 @@
 	"type": "project",
 	"license": "private use",
 	"minimum-stability": "stable",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"require": {
 		"php": ">=5.4.0",
-        "yiisoft/yii2": ">=2.0.7"
+        "yiisoft/yii2": ">=2.0.7",
 
 		"claudejanz/yii2-mygii": "dev-master",
 		"conquer/gii-modal": "*",
