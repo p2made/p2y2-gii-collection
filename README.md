@@ -1,5 +1,5 @@
-yii2-p2y2-gii-collection
-========================
+yii2-p2y2-gii-collection v0.0.2
+===============================
 
 INSTALLATION
 ------------
