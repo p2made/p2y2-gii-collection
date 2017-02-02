@@ -1,5 +1,5 @@
-yii2-p2y2-gii-collection v0.0.5
-===============================
+yii2-p2y2-gii-collection v0.1.0
+========================
 
 # Installation
 
@@ -116,21 +116,151 @@ composer require deesoft/yii2-gii:"~1.0"
 ```
 
 
+## mdmsoft/yii2-gii
+
+* [packagist](https://packagist.org/packages/mdmsoft/yii2-gii)
+* [github](https://github.com/mdmsoft/yii2-gii)
+
+```
+		"mdmsoft/yii2-gii": "~1.0",
+```
+
+```
+composer require mdmsoft/yii2-gii:"~1.0"
+```
+
+### Usage
+
+```php
+	//Add this into common/config/main-local.php
+	'bootstrap' => 'gii',
+	'modules' => [
+		'gii' => [
+			'class' => 'yii\gii\Module',
+			'generators' => [
+				'crud' => [ // mdmsoft/yii2-gii
+					'class' => 'mdm\gii\generators\crud\Generator'
+				],
+				'mvc' => [ // mdmsoft/yii2-gii
+					'class' => 'mdm\gii\generators\mvc\Generator'
+				],
+				'migration' => [ // mdmsoft/yii2-gii
+					'class' => 'mdm\gii\generators\migration\Generator'
+				],
+			],
+		],
+	],
+```
 
 
+## mootensai/yii2-enhanced-gii
+
+* [packagist](https://packagist.org/packages/mootensai/yii2-enhanced-gii)
+* [github](https://github.com/mootensai/yii2-enhanced-gii)
+
+```
+		"mootensai/yii2-enhanced-gii": "@dev",
+```
+
+```
+composer require mootensai/yii2-enhanced-gii:"@dev"
+```
+
+### Usage
+
+```php
+	//Add this into common/config/main-local.php
+	'bootstrap' => 'gii',
+	'modules' => [
+		'gridview' => [
+			'class' => '\kartik\grid\Module',
+		],
+	],
+```
 
 
+## schmunk42/yii2-giiant
+
+* [packagist](https://packagist.org/packages/schmunk42/yii2-giiant)
+* [github](https://github.com/schmunk42/yii2-giiant)
+
+```
+		"schmunk42/yii2-giiant": "@stable",
+```
+
+```
+composer require schmunk42/yii2-giiant:"@stable"
+```
+
+### Usage
 
 
+## sintret/yii2-gii-adminlte
+
+* [packagist](https://packagist.org/packages/sintret/yii2-gii-adminlte)
+* [github](https://github.com/sintret/yii2-gii-adminlte)
+
+```
+		"sintret/yii2-gii-adminlte": "dev-master",
+```
+
+```
+composer require sintret/yii2-gii-adminlte:"dev-master"
+```
+
+### Usage
+
+```php
+	//Add this into common/config/main-local.php
+	'bootstrap' => 'gii',
+	'modules' => [
+		'gii' => [
+			'class' => 'yii\gii\Module',
+			'generators' => [
+				'sintret' => [ // sintret/yii2-gii-adminlte
+					'class' => 'sintret\gii\generators\crud\Generator',
+				],
+				'sintretModel' => [ // sintret/yii2-gii-adminlte
+					'class' => 'sintret\gii\generators\model\Generator'
+				],
+			],
+		],
+	],
+```
 
 
+## wilwade/gii-migration
 
+* [packagist](https://packagist.org/packages/wilwade/gii-migration)
+* [github](https://github.com/wilwade/gii-migration)
 
-## ^ ----- ^ ----- ^ ----- ^ ----- ^ ----- ^ ----- ^
+```
+		"wilwade/gii-migration": "dev-master",
+```
 
+```
+composer require wilwade/gii-migration:"dev-master"
+```
 
+### Usage
 
-## ^ ----- ^ ----- ^ ----- ^ ----- ^ ----- ^ ----- ^
+```php
+	//Add this into common/config/main-local.php
+	'bootstrap' => 'gii',
+	'modules' => [
+		'gii' => [
+			'class' => 'yii\gii\Module',
+			'generators' => [
+				'giiMigration' => [ // wilwade/gii-migration
+					'class' => 'wilwade\giiMigration\generators\migration\Generator',
+					//Optional:
+					'defaultColumns' => [],
+					'baseClass' => 'yii\db\Migration',
+				],
+			],
+		],
+	],
+```
 
 
 ### yii2mod/yii2-gii-extended
