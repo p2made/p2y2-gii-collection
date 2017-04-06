@@ -5,7 +5,7 @@
 	"type": "project",
 	"license": "private use",
 	"minimum-stability": "stable",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"require": {
 		"claudejanz/yii2-mygii": "^0.0.8",
 		"cornernote/yii2-gii": "^0.1",
@@ -14,8 +14,6 @@
 		"herroffizier/yii2-gii-custom": "^1.0",
 		"mdmsoft/yii2-gii": "^1.1",
 		"mootensai/yii2-enhanced-gii": "^1.0",
-		"platx/yii2-gii": "dev-master",
-		"rociosoft/yii2-gii": "dev-master",
 		"schmunk42/yii2-giiant": "^0.9.0",
 		"shirase55/yii2-gii": "^2.0",
 		"sintret/yii2-gii-adminlte": "^1.0",
