@@ -1,4 +1,4 @@
-yii2-p2y2-gii-collection v0.1.0
+yii2-p2y2-gii-collection v0.1.1
 ========================
 
 # Installation
