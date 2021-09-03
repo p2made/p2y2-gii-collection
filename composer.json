@@ -3,7 +3,7 @@
 	"description": "Yii2 Yii Gii",
 	"keywords": ["yii2", "Yii", "Gii"],
 	"type": "project",
-	"license": "private use",
+	"license": "mit",
 	"minimum-stability": "stable",
 	"version": "1.0.0",
 	"require": {
