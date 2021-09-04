@@ -1,6 +1,6 @@
 {
 	"name": "p2made/yii2-p2y2-gii-collection",
-	"description": "Yii2 Yii Gii",
+	"description": "A convenience package for adding a bunch of Gii additions.",
 	"keywords": ["yii2", "Yii", "Gii"],
 	"type": "project",
 	"license": "mit",

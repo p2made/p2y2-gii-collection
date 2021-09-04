@@ -1,12 +1,14 @@
-yii2-p2y2-gii-collection v1.0.0
-========================
+p2y2-gii-collection
+===================
+
+A convenience package for adding a bunch of Gii additions.
 
 # Installation
 
 Add...
 
 ```
-	"p2made/yii2-p2y2-gii-collection": "dev-master"
+	"p2made/p2y2-gii-collection": "dev-master"
 ```
 
 to the `require-dev` section of your `composer.json` file & p2y2-things will be installed next time you run `composer update`.
