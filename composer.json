@@ -5,7 +5,6 @@
 	"type": "project",
 	"license": "mit",
 	"minimum-stability": "stable",
-	"version": "1.0.0",
 	"require": {
 		"claudejanz/yii2-mygii": "dev-master",
 		"cornernote/yii2-gii": "*",
