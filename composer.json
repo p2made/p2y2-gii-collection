@@ -1,5 +1,5 @@
 {
-	"name": "p2made/yii2-p2y2-gii-collection",
+	"name": "p2made/p2y2-gii-collection",
 	"description": "A convenience package for adding a bunch of Gii additions.",
 	"keywords": ["yii2", "Yii", "Gii"],
 	"type": "project",
