@@ -1,7 +1,6 @@
-p2y2-gii-collection
-===================
+# p2y2-gii-collection
 
-A convenience package for adding a bunch of Gii additions.
+A convenience package for adding a bunch of Gii additions to Yii2 projects.
 
 # Installation
 
